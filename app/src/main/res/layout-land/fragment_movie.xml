@@ -1,0 +1,33 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/movies_gridView"
+        android:numColumns="3"
+        />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:fontFamily="sans-serif-condensed"
+         android:textColor="@color/color_text_rating"
+         android:textSize="@dimen/detailActivity_TextView_ReleaseDate_Size"
+         android:id="@+id/emptyStateTextView"
+         android:text="@string/no_movies_available"/>
+
+
+     <ProgressBar
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:id="@+id/progressBar"
+         android:indeterminate="true"/>
+
+</RelativeLayout>

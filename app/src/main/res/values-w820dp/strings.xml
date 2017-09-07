@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settingsLabel">Settings</string>
+    <string name="deleteFavourite">Removed</string>
+    <string name="sorry_no_reviews_available">Sorry, No Reviews available</string>
+</resources>

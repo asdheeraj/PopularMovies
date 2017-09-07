@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.popularmovies.DetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detailActivity_TextViewHeight"
+        android:background="@color/colorBrown"
+        android:textSize="@dimen/detailActivity_TextView_text_Size"
+        tools:text="Chappie"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/movieName"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding_detailActivity"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/detailActivity_ImageWidth"
+            android:layout_height="@dimen/detailActivity_LayoutHeight"
+            android:id="@+id/movieDetail"
+           />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/detailActivity_LayoutHeight"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detailActivity_TextView_ReleaseDate_Size"
+                android:id="@+id/movieReleaseDate"
+                tools:text="2015-06-06"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/detailActivity_rating_text_size"
+                android:textColor="@color/color_text_rating"
+                android:id="@+id/movieRating"
+                tools:text="8.1/10"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/addFavourite"
+                android:background="@color/colorBrown"
+                android:text="Mark as Favourite"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/white"
+                android:onClick="addFavourite"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moviePlot"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="@dimen/detailActivity_moviePlot_text_size"
+        android:padding="@dimen/activity_horizontal_margin"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/click_to_view_trailers"
+        android:id="@+id/viewTrailers"
+        android:textColor="@color/color_text_rating"
+        android:textSize="@dimen/detailActivity_TextView_ReleaseDate_Size"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@android:color/darker_gray"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/click_to_view_reviews"
+        android:id="@+id/viewReviews"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/color_text_rating"
+        android:textSize="@dimen/detailActivity_TextView_ReleaseDate_Size"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@android:color/darker_gray"/>
+
+
+</LinearLayout>
+</ScrollView>
+
+

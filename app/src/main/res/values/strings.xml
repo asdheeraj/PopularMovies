@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="settings">Settings</string>
+
+
+    <!-- String values for the Preferences menu-->
+    <string name="pref_movie_category_label">Sort Order</string>
+    <string name="pref_movie_category_key">sort_order</string>
+    <string name="pref_movie_category_default_value">@string/pref_category_popular_value</string>
+
+    <string name="pref_category_top_rated_label">Top Rated</string>
+    <string name="pref_category_top_rated_value">top_rated</string>
+
+    <string name="pref_category_popular_label">Popular</string>
+    <string name="pref_category_popular_value">popular</string>
+
+    <string name="pref_category_favourites_label">My Favourites</string>
+    <string name="pref_category_favourites_value">my_favourites</string>
+    <string name="ParcelableKey">Object</string>
+    <string name="jsonArray_Results">results</string>
+    <string name="json_ImagePath">poster_path</string>
+    <string name="json_movieOverview">overview</string>
+    <string name="json_movieReleaseDate">release_date</string>
+    <string name="json_movieTitle">original_title</string>
+    <string name="json_movieRating">vote_average</string>
+    <string name="rating_Scale">/10</string>
+    <string name="DetailActivity_Label">MovieDetails</string>
+    <string name="MainActivity_Label">Movies</string>
+    <string name="httpURL_setRequestMethod">GET</string>
+    <string name="network_Connection_Message">Something is wrong.Please check your Connection</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contentAuthority">com\.example\.android\.popularmovies</string>
+    <string name="content">content\:\/\/</string>
+    <string name="favMovies">FavMovies</string>
+    <string name="columnMovieName">Name</string>
+    <string name="columnImageURL">ImageURL</string>
+    <string name="columnMoviePlot">Plot</string>
+    <string name="columnMovieReleaseDate">ReleaseDate</string>
+    <string name="columnMovieRating">Rating</string>
+    <string name="Movie_ID">id</string>
+    <string name="trailerKey">key</string>
+    <string name="reviewKey">content</string>
+    <string name="view_more">Scroll to View More</string>
+    <string name="trailer">"Trailer "</string>
+    <string name="settingsLabel">Settings</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+    <string name="deleteFavourite">Removed</string>
+    <string name="sorry_no_reviews_available">Sorry, No Reviews available</string>
+    <string name="sorry_no_videos_available">Sorry, No videos available</string>
+    <string name="please_click_on_a_movie_image_to_view_details">Please click on a Movie Image to view Details</string>
+    <string name="unmark_as_favourite">Unmark as Favourite</string>
+    <string name="no_movies_available">No Movies Available</string>
+    <string name="click_to_view_trailers">Click to View Trailers</string>
+    <string name="click_to_view_reviews">Click to View Reviews</string>
+    <string name="api_key">f559cbf805979a54e983cb35c5cfbc26</string>
+
+</resources>

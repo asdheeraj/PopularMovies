@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_label">
+        <item>@string/pref_category_popular_label</item>
+        <item>@string/pref_category_top_rated_label</item>
+        <item>@string/pref_category_favourites_label</item>
+
+    </string-array>
+
+    <string-array name="settings_order_values">
+        <item>@string/pref_category_popular_value</item>
+        <item>@string/pref_category_top_rated_value</item>
+        <item>@string/pref_category_favourites_value</item>
+    </string-array>
+
+</resources>
